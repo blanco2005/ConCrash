@@ -1,0 +1,5 @@
+package trace;
+
+public enum EventType {
+	WRITE_EVENT, READ_EVENT, LOCK_EVENT, UNLOCK_EVENT, START_EVENT, JOIN_EVENT
+}
